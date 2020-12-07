@@ -2,7 +2,7 @@
 
 Convert arrays in the AWS PHP SDK documentation into real code.
 
-Reading AWS documentation, you may wish to use the PHP-style snippets that describe request configurations, [like this one](https://docs.aws.amazon.com/aws-sdk-php/v3/api/api-mediaconvert-2017-08-29.html#createjob).
+Reading AWS documentation, you may wish to use the PHP-style snippets that describe [request configurations](https://docs.aws.amazon.com/aws-sdk-php/v3/api/api-mediaconvert-2017-08-29.html#createjob).
 
 Use this converter to tidy these arrays and convert them into real code. 
 
