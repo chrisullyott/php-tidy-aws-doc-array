@@ -1,0 +1,23 @@
+#!/usr/bin/php
+<?php
+
+require 'vendor/autoload.php';
+
+use ChrisUllyott\AwsPhpDocArrayConverter;
+
+$file = $argv[1];
+
+if (file_exists($file)) {
+    echo "Reading file: {$file}\n";
+} else {
+    echo "File not found.\n";
+    exit;
+}
+
+$converter = new AwsPhpDocArrayConverter($file);
+
+if ($converter->convert()) {
+    echo "File created: {$converter->convertedFile()}\n";
+} else {
+    echo "Build failed.\n";
+}

@@ -1,0 +1,30 @@
+{
+  "name": "chrisullyott/php-tidy-aws-doc-array",
+  "type": "library",
+  "description": "Convert arrays in the AWS PHP SDK documentation into real code.",
+  "homepage": "https://github.com/chrisullyott/php-tidy-aws-doc-array",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris Ullyott",
+      "email": "contact@chrisullyott.com",
+      "homepage": "http://www.chrisullyott.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/chrisullyott/php-tidy-aws-doc-array/issues",
+    "source": "https://github.com/chrisullyott/php-tidy-aws-doc-array"
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChrisUllyott\\": "src/"
+    }
+  },
+  "keywords": [
+    "php",
+    "aws"
+  ]
+}
