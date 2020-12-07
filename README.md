@@ -16,7 +16,7 @@ The example file contains an entire array from the docs, beginning with the firs
 php tidy examples/MediaConvertJob.txt
 ```
 
-Before:
+#### Before
 
 ```php
 [
@@ -35,7 +35,7 @@ Before:
     ],
 ```
 
-After:
+#### After
 
 ```php
 <?php
